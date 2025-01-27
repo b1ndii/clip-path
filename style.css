@@ -1,0 +1,12 @@
+.clip-path {
+    height: 30em;
+    width: 30em;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 255, 0, 0.488) 0%, /* lime color */
+        rgba(0, 128, 0, 0.502) 100%  /* green color */
+    ),
+    url("https://www.shutterstock.com/image-photo/young-woman-practicing-yoga-naturefemale-600nw-1032792868.jpg");
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
